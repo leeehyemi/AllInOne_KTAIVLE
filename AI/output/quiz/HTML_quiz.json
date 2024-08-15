@@ -1,0 +1,82 @@
+[
+    {
+        "lectureName": "HTML",
+        "question": "HTML의 변천사 중 초기에 하이퍼링크가 가장 주요한 기능이었던 이유는 무엇인가요?",
+        "options": "링크 연결 용이성, 정보 전달 용이성, 문서 이동 편의성, 추가 정보 제공",
+        "answer": "링크 연결 용이성",
+        "subject": "HTML의 변천사",
+        "time": "10:47"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "HTML에서 어떤 태그를 사용하여 다른 문서로 연결하는 링크 정보를 저장하나요?",
+        "options": "a 태그, img 태그, div 태그, p 태그",
+        "answer": "a 태그",
+        "subject": "HTML의 기본 구조",
+        "time": "11:47"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "HTML의 최근 추세는 어떻게 변화하고 있는가?",
+        "options": "데이터 중심 구조, 미려한 디자인 요소, 텍스트 중심 표현, 플러그인 활용",
+        "answer": "미려한 디자인 요소",
+        "subject": "HTML의 최근 추세",
+        "time": "17:20"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "데이터 및 표현을 분리하는 추세가 컴퓨터 프로그램 설계에 도움을 주는 것은 무엇인가요?",
+        "options": "MVC (Model- View-Controller), MFC의 Document/View 구조, HTML에 데이터 저장, CSS에 데이터 저장",
+        "answer": "MVC (Model- View-Controller)",
+        "subject": "데이터 및 표현 분리",
+        "time": "19:39"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "클라이언트 사이드 스크립팅을 통해 동적인 처리를 하는데 사용되는 언어는 무엇인가요?",
+        "options": "HTML, CSS, JavaScript, PHP",
+        "answer": "JavaScript",
+        "subject": "클라이언트 사이드 스크립팅",
+        "time": "26:00"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "검색 엔진 최적화를 위해 HTML 문서 내에서 중요한 역할을 하는 것은 무엇인가요?",
+        "options": "Title tag, Meta tag, Heading tags, OpenGraph",
+        "answer": "Title tag",
+        "subject": "검색 엔진 최적화",
+        "time": "29:00"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "웹 페이지의 Accessibility(접근성)을 향상시키기 위해 중요한 요소는 무엇인가요?",
+        "options": "TTS(Text-to-Speech)를 활용, 시멘틱 태그 사용, 올바른 구조로 HTML 작성, 텍스트를 읽어주는 화면 리더기",
+        "answer": "시멘틱 태그 사용",
+        "subject": "웹 접근성",
+        "time": "36:20"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "Semantic 태그의 주요 목적은 무엇인가요?",
+        "options": "화면에 보이는 효과 추가, 검색 엔진 최적화, 의미를 포함하는 적극적 사용, 시각적 표현 강조",
+        "answer": "의미를 포함하는 적극적 사용",
+        "subject": "Semantic 태그",
+        "time": "44:19"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "HTML에서 제목을 지정하는 태그는 무엇인가요?",
+        "options": "<head>, <title>, <body>, <header>",
+        "answer": "<title>",
+        "subject": "HTML 기본 태그",
+        "time": "53:44"
+    },
+    {
+        "lectureName": "HTML",
+        "question": "HTML에서 데이터를 저장하는 역할을 하는 태그는 무엇인가요?",
+        "options": "<header>, <nav>, <section>, <article>",
+        "answer": "<article>",
+        "subject": "HTML 기본 태그",
+        "time": "57:00"
+    }
+]

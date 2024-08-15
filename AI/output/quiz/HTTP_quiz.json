@@ -1,0 +1,82 @@
+[
+    {
+        "lectureName": "HTTP",
+        "question": "HTTP는 무엇의 약자인가요?",
+        "options": "하이퍼 텍스트 트랜스퍼 프로토콜, 하이퍼 텍스트 타입 프로토콜, 하이퍼 텍스트 통신 프로토콜, 하이퍼 텍스트 전송 프로토콜",
+        "answer": "하이퍼 텍스트 트랜스퍼 프로토콜",
+        "subject": "HTTP",
+        "time": "01:55"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "이메일 주소에서 \"@\" 기호는 어떤 의미를 가지고 있나요?",
+        "options": "위치 구분, 구분 기호, 연결 기호, 전송 기호",
+        "answer": "위치 구분",
+        "subject": "이메일 주소",
+        "time": "15:19"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "시리얼 통신과 패럴렐 통신 중 어떤 것이 기억 속에 남아 있는 기술인가요?",
+        "options": "시리얼 통신, 패럴렐 통신",
+        "answer": "시리얼 통신",
+        "subject": "컴퓨터 통신 기술",
+        "time": "17:42"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "월드와이드 웹에서 사용되는 HTML에서 'HTML'은 무엇의 약자인가요?",
+        "options": "Hyper Text Markup Language, Hyperlink Text Markup Language, High Text Markup Language, Hyper Text Management Language",
+        "answer": "Hyper Text Markup Language",
+        "subject": "월드와이드 웹",
+        "time": "29:30"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "W3C에서 웹 표준을 개발하는데 사용되는 컨소시엄의 목적은 무엇일까요?",
+        "options": "정보 공유, 연구 개발, 교육 지원, 시스템 관리",
+        "answer": "정보 공유",
+        "subject": "W3C",
+        "time": "34:14"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "HTML에서 'HTML'이라는 용어에서 'H'는 무엇을 의미하는가요?",
+        "options": "Hyper, High, Hyperlink, Hypertext",
+        "answer": "Hypertext",
+        "subject": "HTML",
+        "time": "35:23"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "Ultraman, Ultraviolet이 어떤 의미를 갖는지 설명하라.",
+        "options": "[일반 사람보다 뛰어난 것, 자외선 스펙트럼의 범위, 눈에 보이지 않는 가시광선]",
+        "answer": "[일반 사람보다 뛰어난 것]",
+        "subject": "[하이퍼, 울트라, 슈퍼의 의미]",
+        "time": "[35:37]"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "하이퍼텍스트와 일반 텍스트의 차이를 설명하라.",
+        "options": "[매우 간단한 텍스트, 이미지와 링크 포함 가능한 텍스트, 더 많은 표현 능력을 갖는 텍스트]",
+        "answer": "[이미지와 링크 포함 가능한 텍스트]",
+        "subject": "[하이퍼텍스트와 일반 텍스트의 차이]",
+        "time": "[39:24]"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "백엔드를 개발하는 사람을 무엇이라고 부르나요?",
+        "options": "프론트엔드 개발자, 백엔드 개발자, 풀스택 개발자, 코더",
+        "answer": "백엔드 개발자",
+        "subject": "소프트웨어 개발",
+        "time": "52:12"
+    },
+    {
+        "lectureName": "HTTP",
+        "question": "HTTP의 응답 중 200은 무엇을 의미하나요?",
+        "options": "성공, 클라이언트 오류, 서버 오류, 요청 완료",
+        "answer": "성공",
+        "subject": "네트워크 프로토콜",
+        "time": "61:48"
+    }
+]

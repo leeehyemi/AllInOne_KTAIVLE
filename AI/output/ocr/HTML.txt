@@ -1,0 +1,57 @@
+00:20 ~ 00:40 - 웹 프로그래밍 프로
+00:40 ~ 01:00 - 강의 개요 kit 홈페이지 (https://bwoh.github.io/) https://bwoh.github.io/categories/동영상-강의/웹-프로그래밍 https://url.kr/lburrf CoLab https://colab.research.google.comdrive/12Gv 5S3-ovgaSJ-MGJyNQw7WMplnbFrO https://url.kr/8ipami 많은 유튜브, 책, 사이트를 통해 다양한 양질의 정보 얻을 수 있음 W3 Schools 사이트 추천 - https://www.w3schools.com/ HTML 에 대한 HTML도 언어이므로 문법에 맞춰서 사용해야 함 기본 구조 및 Tags, Elements, Attributes 등의 구성 요소 CSS 및 JavaScript와의 관계 국립금오공과대학교 Department of Computer Engineering 2
+01:00 ~ 01:20 - Department of
+02:00 ~ 02:20 - 구성 요소
+07:20 ~ 07:40 - (Hypertext Language) Markup Hypertext: 일반 text로 표현할 수 있는 것보다 정보 표현 가능 다른 문서로의 링크,이미지, 테이블, 색, 폰트 등 Language 원래 내용에 추가적인 정보 표현 가능한 언어 Web page를 표현하기 위한 많이 사용됨 배우기 쉽고 사용하기 편해서 broser가 text 형식의 파일을 읽어서 rendering하여 화면에 보기 좋 게표현해줌 World Wide Consortium(W3C)에서 표준화 우리가 마음대로 바꿀 없음 바꾸면 에러는 나지 않더라도, web browser 가 인식하지 못해서 원하는대로 출력 안됨 3
+08:00 ~ 08:20 - 게 표현해 줌
+09:20 ~ 09:40 - rendering하여 화면에 좋게 표현해 줌
+10:40 ~ 11:00 - HTML의 변천사 초기에는 링크가 주요 기능이었음 Hyperlink를 문서로 이동할 특정 단어가 있다면, HTML을 작성할 때 그 단어와 문서를 연결할 링크 정보를 동으로 저장해야 함 Anchor(닻, 고정한다는 의미)의 앞글자인 a를 tag 이름으로 사용함 꼬리에 꼬리를 무는 궁금증 해결 방법에 유용함 사전을 찾다보니 모르는 나와서, 그 단어를 쫓아가서 보다 보니 다시 나와서, (반복) (정보의 바다를) 항해 중 길을 잃는 경우가 발생함 나는 누구고 여긴 어딘가? (뭘 찾을 목적이었는지 잊고 길로 빠지는 현상발생) 컴퓨터 성능이 높아지면서 이미지뿐만 아니라, Flash, ActiveX 플러그인 사용 단어에 링크를 연결하는 것 보다는 이미지나 제목에 많아짐 본래의 데이터와 더불어 HTML을 미려하게 꾸미기 요소들이 포함됨 Software 기술 발전에 따른 분리 추세를 반영함 4
+11:00 ~ 11:20 - 연결할링크 보보
+11:20 ~ 11:40 - 있음 기술발전에
+12:00 ~ 12:20 - 이동할 수
+14:00 ~ 14:20 - 찾다보니 모르는
+14:20 ~ 14:40 - (월
+17:20 ~ 17:40 - 보다는 이미지나
+18:20 ~ 18:40 - 제목에 링크를
+19:40 ~ 20:00 - 데이터 및 표현 실제 내용이 되는 데이터를 시각적으로 출력하기 위해 꾸미는 방법 이전에는 editor를 시각적인 폰트, 색상 정보를 데이터에 직접 결합 하여 저장했음 (표현 위주) 표현을 분리하는 추세 Software를 바람직한 구조로 설계할 있도록 도와주는 design patterns의 MVC (Model- View-Controller) MFC의 Document/View 구조 데이터는 HTML에 저장 I 방법은 CSS(Cascading Style Sheet)에 저장 5
+26:00 ~ 26:20 - Client-Side Scripting Static vs. dynamic Static(정적)은 한 번 정해지면 변경되지 않음 휴일에 교외로 놀러가려고 지도 보고 정한 뒤에 그 운전해서 목적지 도착 Dynamic(동적)은 정해진 것이 상황에 따라 변경될 네비게이션을 운전하고 있었는데 경로 중에 사고로 지체되는 구간이 있 어서 안내받고 JavaScript page 를 사용해 dynamic 서버로부터 렌더링하여 출력하고 변하지 Dynamic 출력한 뒤에 사용자의 인터렉션이나 이벤트에 모양 이나 변할 최신 얻어와서 게시판 리스트 변경 가능 버튼을 누르면 이미지가 변함(버튼 클릭할 때 서버로부터 받아오지 않고 문서 내에서 실행) 6
+26:20 ~ 26:40 - 변함 (버튼
+26:40 ~ 27:00 - 변경 클릭할 때
+27:00 ~ 27:20 - 클릭할때
+27:40 ~ 28:00 - 정한
+30:00 ~ 30:20 - SEO (Search Engine Optimization) 작성한 HTML이 검색 엔진에 노출되도록 최적화 필요 https://developers.google.com/search/docs/beginnr/seo-starter-guide Title tag: page의 제목이어서 중요성이 매우 높으므로 내용을 최대한 정확히 설명해야 함 Meta <meta name="description" context="HTML JavaScript에 대해 설명합니다."/> 80자 이내로 설명 (비추천)<meta name="keywordIS" JavaScript"/> SEO를 제격이라고 생각되지만 Google을 포함한 검색엔진에서 참고하지 Heading tags (제목 태그) 구조를 책처럼 정리 <h1>장 제목</h1><h2>절 제목</h2><h2>절</h2><h1>장</h1><h2>절</h2><h2>절</h2> OpenGraph http:btop.tistory.com 카카오톡에서 링크보내면 작게 뜨는 thumbnail을 프로토콜임 name="og:title"~또는 name="og:description" ~ 사용 Nano Beg ver 오후8:38 7
+30:20 ~ 30:40 - <h1>장 제목</h1><h2>절제|목</h2><h2>절</h2><h1>장</h1><h2>절</h2><h2>절</h2> Nano Big 오염무 오후8:30
+31:00 ~ 31:20 - Nano Bog 부품부
+32:40 ~ 33:00 - https://developers.google.com/search/docs/begirner/seo-starterguide content="HTML 부평우 오후 8:30
+33:20 ~ 33:40 - name="kevwords"
+34:00 ~ 34:20 - 부분우
+34:20 ~ 34:40 - 제목</h1><h2>절제|목</h2><h2>절</h2><h1>장</h1><h2>절</h2><h2>절/h2>
+34:40 ~ 35:00 - name="keywordIs" 링크보내면작게
+35:20 ~ 35:40 - http:bwoh.tistory.com 오뚜기
+36:00 ~ 36:20 - https://developers.google.com/search/docs/begirner/seo-starter-guide 오후 8:38
+36:20 ~ 36:40 - Accessibility (접근성) 사용자가 접근할 접근성 향상 필요 눈에 보이는 요소에만 집중하여 작성하지 않고, 올바른 semantic tag들을 사용하여 작성 결과적으로 SEO(검색엔진 최적화)에 도움이 됨 눈이 보이지 않거나 시력이 나쁘다던지, 노안, 색맹 또는 색약, 청각 이상,정확한 위치 클릭이 어 려운 증상 등 장애를 가진 사용자 고려 전세계 인구의 15%에 해당하는 사람이 가지고 있다는 WHO 발표 있다고 함 흔히 사용되는 텍스트를 그대로 이해가 될 수 있도록 작성 기호, 약어, 축약형 지양 TTS(Text-to-Speeh)를 화면 리더기가 웹 페이지를 읽을 때 그림이 페이지에서 중요하다면 alt 애트리뷰트에 어떤 그림인지 기술하는 텍스트 추가 8
+36:40 ~ 37:00 - 접근성향상필요 위치 클릭이
+44:00 ~ 44:20 - 애트미뷰트에
+44:20 ~ 44:40 - Semantic Tags 단순히 표현되는 효과뿐만 아니라, 의미를 포함하는 적극 사용 검색 엔진은 중요하게 생각하므로 SEO에 Accessibility를 위해서도 tag이 리더기가 인식하기에 좋음 의미론적으로 분석 재가공하기 똑같이 표현되더라도 구조적으로 좋은 경우와 좋지 못한 경우로 나 List vs. br <ol><li>텍스트</li><li>텍스트</li></ol> 형태가 바람직함 1. 텍스트 +<br>+2. 텍스트 + <br> 형태는 집착하여 바람직하지 Button vs. div: div로 구분하면 의미를 어려운 경우 div로도 button 역할 수행할 있지만 의미론적으로는 사용한 이탤릭체로 강조하기 Em (emphasized) vs. i 굵게 strong vs. b 9
+44:40 ~ 45:00 - =
+45:00 ~ 45:20 - 도움이 됨
+46:40 ~ 47:00 - <<><li>텍스트</li><li>텍스트</li><ol>
+47:00 ~ 47:20 - <ol><|i>텍스트</li><|i>텍스트</li></ol>
+47:20 ~ 47:40 - + <br>+2. 텍스트 +<br>
+49:40 ~ 50:00 - VS. b
+50:00 ~ 50:20 - vs. h
+50:40 ~ 51:00 - <ol><li>텍스트</li>·<li>텍스트</li></cl>
+51:20 ~ 51:40 - Page 구조를 정의하기 어떻게 header: 문서의 윗 부분 출력되는지 article이나 section에 포함될 수도 있는지가 중요함 main: footer: 아랫 copyright, 연락처 등 포함 nav: 네비게이션 링크들 hyperlink로 연결 aside: 사이드바처럼 옆에 위치하는 내용 section: 주제별 그룹 구성. 신문의 섹션이나 책의 장과 같은 section이 article 포함할 article: 기사 블로그의 포스트와 내용에 해당함 article이 section 10
+53:20 ~ 53:40 - Goorm IDE 2장 개발 환경 구축에서 사용했던 DevWebContainer 실행 opormide HTML/CSS/JS 10GB goomwick goormide 모든 단축케 Programming 매일 참배 재단 양력 보기 세계태양성 AH·Sh 고드 보장집 AR+SWN 번째 화면 오전 알고 계신가요? Git 레이아웃의 4시긴 진에 수정됨 좌측 'Git'에서 파일 변화. git 히스토리 이벤트를 확인할 악 있습니다. 클릭 컨테이너를 불러오고 있습니다. 1/1 11
+53:40 ~ 54:00 - 확인 https://devwebconainer-iusiw.ru x 메뉴 프로젝트-실행 URL과 포트 https://devwebccntainer-iusiw.rur.goorm.io 화살표 아이콘 프로젝트 속성 Success! index.html (DevWebContainer) https://ide-run.goom.io/workspace/ 실행 URL과 서버 실행에 도매면 주소를 등록한 Ignore 관리 HTML/CSS/JS스택의 포트는 9090 입니다. 편집 컨테이너 배포 창 도움말 빌드/실행 설정 workspace DevWeb 공통 URL https:// .run.goorm.io 빌드 F5 DevWebContain PORT 80-65000 등록 README.md Shift+F5 등록된 (컨테이너당 최대 3개) 테스트 style.css 실행용 </> 명령어 탐색 선택 https://devwebcontainer- YUC 135 프로세스 목록 iusiw.run.goorm.io 미리보기 톨비에 표시 취소 112 고치 12
+54:00 ~ 54:20 - index. html 왼쪽 윈도우에서 더블 변경 전 title https://devwebcontairer-iusiw.ru 1 <!DOCTYPE html> CJ https://devwebcontairer-iusiw.run.goorm.io <html> <head> <title>Web Progr amming</title> <link rel="stylesheet href="style.cSS > 이 부분이 </head> 변경됨 <body> <div class="title"> X </div> </body> </html> 13
+54:20 ~ 54:40 - Chap03 HTML.ipynb CO 댓글 공유 BW 수정 삽입 런타임 도구 오전 3:00에 마지막으로 저장됨 코드 수정 가능 목차 0 | <> · HTML: {x} CSS: JavaScript: 실행할 섹션 http://ide.goorm.io JS
+54:40 ~ 55:00 - Oh / 습 C * Open Preview rel="stylesheet" href="style.css"> 멩 터미널 리소스 모니터 린트 root@goorm:/etc/nginx# ls conf.d fastcgi_params koi-win modules-available nginx.conf scgi_params sites-enabled uwsgi_params fastcgi.conf koi-utf mime. types modules-enabled proxy_params sites-available snippets win-utf cd sites-enabled/ root@goorm:/et/nginx/sites-enabled# default root@goorm:/etc/nginx/sites-erabled# vi root@goorm:/etc/nginx/sites-enabled# CPU 0.00% Mem 2.32% Disk 9.22% 4:2
+55:00 ~ 55:20 - https://djeywebcontairer-iusiw.ru
+55:20 ~ 55:40 - <title></title> href="style.CSS"> 밍 root@goorm:/etc:nginx# mime.types root@goorm:/et:nginx# root@goorm:/etc/rginx/sites-enabled# 4:9
+55:40 ~ 56:00 - <title </title>
+56:00 ~ 56:20 - root@goorm:/et:nginx/sites-enabled#
+56:20 ~ 56:40 - .T <title> </title> rel="styleshet" 4:24
+57:00 ~ 57:20 - 입력 1<!DOCTYPE 45 https://devwebcontairer-iusiw.run.goorm.io/# char set= "UTF-8"/> myJVVer rel= href= 67 stylesheet style. <header> <h1>HTML</h1> 학습한다.</p> 111213141516171819 <p>Hypertext Language에 </header> Hypertext 학습한다. <nav> hrof-"# >HTML</a> href="# >CSS</>> <a >JavaScr ipt</a> </nav> 역할 분담 20212223 <section> <h1>역할 분당</h1> <article><strong>HTML</strong>실제 저장</article> <article><strong>CSS</strong>표현 HTML실제 자의 24252627 <article><strong>JavaScr ipt</strong>사용 CSS표현 </saction> JavaScript사용자의 <aside> 28 <p>자세한 내용은 앞으로의 강의에서 학습할 것이니 몰라도 됩니다.</p> 29 </asido> 자세한 됩니다. 30 31 <footer> 32 KB http://bwch. github.io '>강의 홈페이지</a> 33 </footer> 34 35</html> 14
+57:20 ~ 57:40 - l Programming/title> 8:8
+58:40 ~ 59:00 - Summary 분담 방법저장 실행할 내용 엔진 노출을 위해서 최적화가 필요함 문서에 접근성을 향상시키기 노력이 필요함 출력되는 효과보다 데이터의 의미에 맞는 태그 정의 header. nav.footer.section.article 15

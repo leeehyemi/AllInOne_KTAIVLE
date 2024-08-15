@@ -1,0 +1,60 @@
+00:00 ~ 00:20 - 中   쓰 
+00:20 ~ 00:40 - 웹 프로그래밍 ■ 과목명 : 소속학과: 컴퓨터공학과 담당교수 이신원 연락처 010-9678-9237 이메일 swlee@jwu.ac.kr
+00:40 ~ 01:00 - 소속학과
+01:20 ~ 01:40 - 교재 정보 258 HTML5 입문 3판 용인점 지음 Web Programming 연습동에 매입은 복귀하게 했습니다 한빛여기대대 2
+01:40 ~ 02:00 - 윤인성 지용 연습생에게만
+02:20 ~ 02:40 - 유연성 지음 연예대상에
+09:20 ~ 09:40 - 한빛여기대타
+11:20 ~ 11:40 - 주요 내용 첫 걸음(1~2장) 웹과 표준의 역사를 살펴보고 개발 환경을 구축합니다. HTML5의 기 본 구조와 작성법, 디버깅 방법을 알아봅니다. 태그(3~4장) 기본 태그와 공간 분할 태그, 시맨틱 더불어 멀티미디어 입력 양 식 태그를 다룹니다. 웹 표준을 사용해 페이지를 구성하는 익힐 수 있습니다. [종합 예제 1] 블로그 레이아웃 구성 3 CSS3 스타일(5~8장) 선택자와 속성을 사용하는 배웁니다. 페이지 디자인 속성들을 익힌 후 배운 내용을 레이아웃을 예제 2] 블로그에 스타일시트 적용 자바스크립트와 jQuery 라이브러리(9~12장) 자바스크립트의 알아보고 jQuery 라이브러리를 자바스크립트를 문서 객체를 조작하는 중심으로 그리고 입력 양식 자동 초점, 애니메이션, 무한 스크롤 등 제작할 때 바로 사용할 있는 내용들도 함께 살펴봅니다. 예제 3] 자바스크립트 프로젝트(13~14장) HTML5와 CSS3를 사용해서 간단한 모바일 만듭니다. 책에서 모든 내용 을 표준에 맞는 핀터레스트 스타일의 제작합니다. [프로젝트 제작 2]
+21:40 ~ 22:00 - 강의 계획표 주 해당 장/주제 주제 1 1장 웹 개요와 실습 환경 구축 2장 웹 페이지 작성 방법 3장 태그 4 4장 구조화 태그 5 5, 6장 기초: 단위, 속성 1 6 6장 속성2 7 7장 다양한 레이아웃의 구성과 기능 8 필기/실기 중간고사 9 8장 반응형 웹 10 9장 문법 1(용어, 자료형과 변수, 조건문과 반복문) 11 9, 10장 2(함수, 객체), 객체 모델1 12 10장 객체 모델 2 13 11장 jQuery 라이브러리 14 12장 응용 15 13, 14장 프로젝트: 페이지, 웹페이지 16 기말 프로젝트
+27:40 ~ 28:00 - 이 책의 주요 특징 . 핵심만 뽑았습니다. HTML5부터 CSS3, 자바스크립트와 까지 빠르게 직접 만들면서 기본기를 다질 있도록 구성했습니다. · 익히는 → 페이지에 적용하는 기능을 조립하는 종합 예제 프로젝트 순으로 학습합니다. 이론부터 실습까지 문제를 제공합니다. 개념을 확인하는 문제뿐만 아니라 흥미롭고 담았습니다.
+28:20 ~ 28:40 - 도구 ch01_원 개요와 실... ? 로그인 ↓ 30 82.2% 공유 올인상 지음 1장 웹 개요와
+28:40 ~ 29:00 - ch01 Contents 학습목표 웹의 개념과 특징을 이해합니다. 동작 원리를 대표적인 웹 표준 기술인 HTML5, 프로그래밍 인터넷과 웹 시작 브라우저 전쟁과 웹 표준 표준 기술과 HTML5를 공부하면 좋은 이유 2/33
+29:20 ~ 29:40 - g
+29:40 ~ 30:00 - ↑ /30 01 인터넷과웹시작 인터넷 VS. 인터넷은 전 세계를 연결하는 국제 정보 통신망으로, 컴퓨터나 스마트폰 같은 디지털기기로 연결되어 사람들이 정보를 공유할 수 웹은 공간에서 제공하는 서비스 FTP 텔넷 그림 1-1 ≠ 3/31
+30:20 ~ 30:40 - I
+31:00 ~ 31:20 - 인터넷의 시작 미국의 신기술을 연구하는 ARPA에서 현재 모태가 되는 아파넷 ARPANET 1969년에 1969년 12월 1970년 6월 1972년 3월 1977년 7월 1-2 시초인 아파넷의 연결 변화 4/31
+31:20 ~ 31:40 - ARPANET을
+32:20 ~ 32:40 - 팀 버너스 리 최초 개발자 W3CWorld Wide Consortium 창설 HTML 비롯한 표준안을 제작, 제안하는 일을 하는 국제적인 웹 표준화 단체 표1-1 버전 W3C WORLD WIDE WEB 발표 연도 o n 0 r t l m HTML1 1991년 10월 그림1-3 팀 버너스 리와 월드 와이드 컨소시업 HTML2 1995년 11월 HTML3 1997년 1월 HTML4 1997년 12월 2014년 5/31
+32:40 ~ 33:00 - r " 1-3 됨 컨소시엄 1997년
+33:00 ~ 33:20 - li
+33:40 ~ 34:00 - " "
+34:00 ~ 34:20 - 1991년 10월
+34:40 ~ 35:00 - 홈 표 1-1 uu
+35:20 ~ 35:40 - 02 웹 브라우저 전쟁의 NCSA는 1993년 모자이크라는 GUI 최초로 넷스케이프 커뮤니케이션(마크 안데르센)은 넷스케이프 웹 마이크로소프트는 익스플로러 발표 후 점유율을 높이기 위해 윈도우 운영체제에 강제로 설치 이에 넷스케이프는 넷스케이프의 소스 코드를 공개하고 모질라 재단을 설립 아메리카 온라인 AOL 커뮤니케이션을 인수, 점차 하락 후 붕괴 MI Dreamert URL th No-company havigator.com ### MOSAIC Netscape Volcaus 1191 Intoral information 1FC Communications Hossic daralopol AT the TCT for two Corporation KCC To Corre of Truecook OF Liu talversity 11110010 0: JM 그림1-5 재단의 캐릭터 1-4 모자이크와 6/31
+35:40 ~ 36:00 - 넷스케이프 웹 브라우저 발표 후 점유율을 DecambrtUFL 中 havigator(ICB) = September 17971 Internal Irc Housic daralcpel CRE 2012 DELC Truncoon LUW
+36:00 ~ 36:20 - / 30 Neocope hirigator.com L Sepperence 11021 Intermal toralcpol TCI 100 DEID Truetow LUE DT 11110011 NU 윕
+36:20 ~ 36:40 - M Dreamort URL Septements Vol.co Hooslc CCC DACO TrueCook or
+36:40 ~ 37:00 - MC ★ Nacco - Dance Volca Intornof TCL tex DELCC Truncoos OI CF 그림 1-5
+37:00 ~ 37:20 - MC1 havigator Septembersha Volcous Internet Conce LGU talvervity
+37:20 ~ 37:40 - National havigatoo Cooper 1111 Intoraol infrastion tig BCC CECO u: 모잘라
+37:40 ~ 38:00 - DreamertURL Welcome Intoract infrctate daralopoi ±2 IRI 20 Coace UT
+38:00 ~ 38:20 - tr 2014-11 Separation 11221 infr toralcpei tha 200 CUCCES Truecoov LG
+38:20 ~ 38:40 - Newspaper Sepirato durelcpel UECO
+38:40 ~ 39:00 - No-coccpa havigator(IM) wegapin Internof torelcpel IEI OUECO DE
+39:00 ~ 39:20 - Septembers Hosmic LUU
+39:20 ~ 39:40 - Dreamer URL grian Volcani daralopei IGI tw UEIO
+39:40 ~ 40:00 - Vol.10 1791 ICE UACC
+40:00 ~ 40:20 - 플러그인 브라우저와 연동되는 프로그램을 사용자의 PC에 추가로 설치해 웹 브라우저의 확장하는 어도비 플래시 Adobe Flash 나 마이크로소프트 액티브XActiveX 2000년 초반에는 액티브X 기반으로 웹 응용 프로그램 기반으로 애니메이션 1-6 플래시로 제작한 졸라맨 7/31
+43:00 ~ 43:20 - 2.0 시대 서로 다른 사용자가 새로운 콘텐츠를 창조할 유튜브, 위키피디아, 깃허브 등 https://www.wikipedia.org GetHub inc USI https://github.com/rinliantt erchaouroto WIKIPEDIA 우리 모두의 백과사건 rintiantta hanbit.itcookbook.html5 한국어 English Code Basel 1Fv110000Waster Points Espahol 日 · 4 한빛아카데미 ITCockbook HTMLS 업튼의 이제 파일입니다. Deutsch Pycoon /1banch 2305200 Francals Italiano Branch master New puff resucat entertain Church Portugues chapter_10 for 11 assonyhml her.12 Uodate HIMLPageJtmL 1-7 위키피디아와 깃허브 8/31
+43:20 ~ 43:40 - ww.kipeda.org GiHua Inc. https://github.comyVimiantt understo Bsues 101-1100 Projects Wiki 日日 llCookbook Pycoosil 1305300 New out foous 中esita JrcafeChanne asonyhimi Q her12 Update HIMLFagehond
+43:40 ~ 44:00 - ww.ikipeda.org GilHub https://github.com/vintiant mpto tvl requests Pycoool 1/1banch 545.000 Newpullresses J 中日100000 JersaiteOhegen 中 x asonythini HTMLPagehoni
+44:00 ~ 44:20 - [US] https://github.comyvinfianat union Blues 1Dvlreevers ITCookbook Pycoosi 2305300 Arild 545.00 New out reaucs 中Cartte incatedhome No.11 asonyhmi HIMLFagehoni
+44:20 ~ 44:40 - ww.kipedia.org Gillula https://github.com/rinfiantt ution 1Dvlreevest 日 · · 17 New out fooust 中eartta Jecoff Original ter_11 tel:12
+44:40 ~ 45:00 - ch01_웹 81.2% 브라우저 전쟁과 웹표준 브라우저와 웹 표준 익스플로러가 세계적으로 높이면서 플러그인을 삽입해 사이트가 점점 무거워지고 있음 2004년 회의에서 재단과 오페라 소프트웨어가 제안하지만 거절 당함 제공 기업(애플, 모질라, 소프트웨어)에서 기관 WHATWG Application 1.0 W3C는 표준으로 채택, 변경 익스플로러만 최신 지원하지 못하는 현상 초래 브라우저가 빠른 속도로 업데이트되고 1-8
+45:20 ~ 45:40 - 그림 1-8
+46:20 ~ 46:40 - 옴
+47:00 ~ 47:20 - ch01 웹
+48:20 ~ 48:40 - 목 발달 WHATWG는 마케팅 등장 Marketplace Launch your app on vs-openness freedom foice_jothe wardd 히퀴즈 TheMozilla 50 appspladfrrm (a) 구글 크롬 일본 광고 (b) 마켓플레이스 1-9
+48:40 ~ 49:00 - es-coenness vice_to to the worldcl 리퀴즈 1:02 (a)구글크롬 일본 광고
+49:00 ~ 49:20 - 웹 표준과 웹 타임 라인 1990 W3C 주도 1991 1992 1993 모자이크 1994 1995 1996 1997 1998 1차 전쟁 1999 2000 XHTML1.0 2001 2002 승리 2003 2004 XHTML2.0 2005 주도 2006 사파리 2007 폐기 2008 파이어폭스 2009 크롱 W3C+WHATWG= 2010 HTML W/G 주도 2011 HTML5 초안 2013 2차 웹브라우저 2014 2015 2016 2017 2018 엣지 2019 2020 그림1- 표준과 브라우저타입 권고안에 오늘날보듬 기준으로 표기
+49:20 ~ 49:40 - XHTML20 그림1-10 쉽 브라우저타임
+49:40 ~ 50:00 - 그린-1-10 원
+50:00 ~ 50:20 - 그림.1 오늘 날짜
+50:40 ~ 51:00 - 브라우저 타임 라인
+51:00 ~ 51:20 - 오늘날보름
+51:20 ~ 51:40 - W/G 주도
+51:40 ~ 52:00 - HTML5초안
+53:00 ~ 53:20 - 타이어폭스 761-10
+53:20 ~ 53:40 - 그림1.
+53:40 ~ 54:00 - HTML W/G

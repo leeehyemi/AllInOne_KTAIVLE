@@ -1,0 +1,82 @@
+[
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "컴퓨터의 입력장치로 가장 흔하게 사용되는 것은 무엇인가요?",
+        "options": "키보드, 마우스, 스피커, 모니터",
+        "answer": "키보드",
+        "subject": "컴퓨터 하드웨어",
+        "time": "08:00"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "컴퓨터에서 연산을 담당하는 중앙 처리 장치는 무엇일까요?",
+        "options": "그래픽 카드, SSD, RAM, CPU",
+        "answer": "CPU",
+        "subject": "컴퓨터 하드웨어",
+        "time": "08:20"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "컴퓨터의 저장 장치로 사용되는 것 중 하나는 무엇인가요?",
+        "options": "SSD, CPU, 그래픽 카드, 메인보드",
+        "answer": "SSD",
+        "subject": "컴퓨터 하드웨어",
+        "time": "09:40"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "CPU의 역할 중 하나인 명령어 처리에 대해 설명하시오.",
+        "options": "명령어 저장, 연산 수행, 제어, 데이터 이동",
+        "answer": "명령어 저장된 프로그램의 명령어를 순차적으로 읽어들여 처리",
+        "subject": "중앙처리장치(CPU)의 역할",
+        "time": "00:02:32.30"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "CPU 내부에 있는 고속 메모리로, 자주 사용하는 데이터나 명령을 저장하여 속도를 향상시키는 것은 무엇인가요?",
+        "options": "레지스터, 캐시 메모리, MAR, ACC",
+        "answer": "캐시 메모리",
+        "subject": "CPU 내부 구조",
+        "time": "00:04:52.00"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "CPU의 연산 및 처리를 담당하는 부분으로, 산술 연산(덧셈, 뺄셈, 곱셈, 나눗셈)과 논리 연산(AND, OR, NOT)을 수행하는 장치는 무엇인가요?",
+        "options": "ALU, CU, IR, ACC",
+        "answer": "ALU (Arithmetic Logic Unit)",
+        "subject": "CPU의 연산 및 처리",
+        "time": "00:05:12:33"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "컴퓨터의 주기억장치 중 일시적으로 정보를 저장하는 메모리는 무엇인가요?",
+        "options": "RAM, ROM, SSD, HDD",
+        "answer": "RAM",
+        "subject": "컴퓨터의 기억장치",
+        "time": "00:07:12:00"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "컴퓨터의 휘발성 메모리에 해당하는 것은 무엇인가요?",
+        "options": "RAM, ROM, SSD, HDD",
+        "answer": "RAM",
+        "subject": "컴퓨터의 기억장치",
+        "time": "00:08:12:20"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "시스템 버스 중 하나인 주소 버스는 무엇을 지정하기 위해 사용되는 경로인가요?",
+        "options": "메모리의 특정 위치, CPU의 데이터 읽기 및 쓰기, 인터럽트 신호, 제어 신호",
+        "answer": "메모리의 특정 위치",
+        "subject": "시스템 버스",
+        "time": "42:00"
+    },
+    {
+        "lectureName": "컴퓨터구조",
+        "question": "시스템 버스 중 하나인 제어 버스는 CPU가 어떤 장치에 어떤 동작을 수행해야 하는지 알려주는 경로로 사용되는데, 어떤 신호를 보내어 CPU에 알려주는 역할을 하는가요?",
+        "options": "읽기 신호, 쓰기 신호, 데이터 전송, 인터럽트 신호",
+        "answer": "인터럽트 신호",
+        "subject": "시스템 버스",
+        "time": "42:40"
+    }
+]
