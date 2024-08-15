@@ -1,0 +1,61 @@
+.noticeListContainer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.h22 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addButton {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+.noticeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.noticeTable th, .noticeTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.noticeTable th {
+    background-color: #f5f5f5;
+}
+
+.noticeTable tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.actionButton {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actionButton:hover {
+    background-color: #0056b3;
+}

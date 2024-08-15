@@ -1,0 +1,63 @@
+/* notice.css */
+.section-box {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between; /* 요소들을 양 끝으로 배치 */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.see-all {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.see-all-icon {
+    width: 20px; /* 버튼 크기 조정 */
+    height: 20px; /* 버튼 크기 조정 */
+}
+
+.notice-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notice-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.notice-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.notice-text {
+    flex-grow: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.notice-time {
+    font-size: 0.8rem;
+    color: #777;
+    text-align: right;
+}

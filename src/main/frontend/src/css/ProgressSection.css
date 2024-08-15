@@ -1,0 +1,64 @@
+.section-box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 330px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.progress-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.progress-chart {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.progress-info {
+    flex-grow: 1;
+}
+
+.course-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-percentage {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.course-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    text-align: left; /* Add this line to align text to the left */
+    margin-top: 10px;
+}

@@ -1,0 +1,99 @@
+.upload-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.upload-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-icon {
+    font-size: 48px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.drag-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.alternative-text {
+    color: #666;
+}
+
+.click-here {
+    color: #4a90e2;
+    cursor: pointer;
+    margin-right:90px;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home-button, .notice-button {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4a90e2;
+    color: white;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.file-selected {
+    border-color: #4a90e2;
+    background-color: #f0f8ff;
+}
+
+.upload-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;  /* 버튼 사이의 간격 */
+}

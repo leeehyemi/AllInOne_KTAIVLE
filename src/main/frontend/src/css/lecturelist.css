@@ -1,0 +1,194 @@
+.header-banner img.header-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header-banner h1, .header-banner p {
+    margin: 0;
+    color: black !important;
+}
+
+.lecture-list-container {
+    max-width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6f0ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.lecture-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.lecture-header .lecture-date {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.lecture-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lecture-item:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+.lecture-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.lecture-item .time {
+    font-size: 1rem;
+    color: #777;
+}
+
+.lecture-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.lecture-actions a,
+.lecture-actions button {
+    padding: 7px 14px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lecture-actions a:hover,
+.lecture-actions button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.lecture-actions a:focus,
+.lecture-actions button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.lecture-actions a:active,
+.lecture-actions button:active {
+    background-color: #e0e0e0;
+    transform: translateY(0);
+}
+
+.lecture-actions .emoji {
+    font-size: 1.2em;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container-xxl {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.lecture-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-white {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 1200px) {
+    .lecture-header .lecture-date,
+    .lecture-item h3,
+    .lecture-item .time {
+        font-size: 1rem;
+    }
+    .lecture-actions a,
+    .lecture-actions button {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .lecture-header .lecture-date,
+    .lecture-item h3,
+    .lecture-item .time {
+        font-size: 0.9rem;
+    }
+    .lecture-actions a,
+    .lecture-actions button {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lecture-header .lecture-date,
+    .lecture-item h3,
+    .lecture-item .time {
+        font-size: 0.8rem;
+    }
+    .lecture-actions a,
+    .lecture-actions button {
+        font-size: 0.65rem;
+        padding: 3px 6px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lecture-header .lecture-date,
+    .lecture-item h3,
+    .lecture-item .time {
+        font-size: 0.7rem;
+    }
+    .lecture-actions a,
+    .lecture-actions button {
+        font-size: 0.6rem;
+        padding: 2px 4px;
+    }
+    .lecture-actions .emoji {
+        display: none; /* 이모지 숨기기 */
+    }
+}
+
+#lecture-menu{
+    margin-bottom: 25px;
+}

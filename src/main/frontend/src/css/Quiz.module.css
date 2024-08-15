@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.startButton {
+    background-color: #dfeaf5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.5em;
+    font-family: 'GongGothicLight';
+}
+
+.startButton:hover {
+    background-color: #b6d6f1;
+}
+
+.quizContainer {
+    font-family: 'GongGothicLight';
+    background-color: #f6f8fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quizBox {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 1000px;
+}
+
+.questionCard,
+.resultCard {
+    text-align: center;
+}
+
+.questionHeader,
+.resultHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.questionIndex,
+.resultTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.questionText {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family: 'GongGothicLight';
+}
+
+.optionsContainer {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    font-family: 'GongGothicLight';
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option input[type="radio"]:checked + label {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.option label {
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navigationButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prevButton,
+.nextButton,
+.finishButton,
+.restartButton {
+    background-color: #dfeaf5;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.lectureButton {
+    background-color: #dfeaf5;
+    color: #abafaf;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.lectureButton:hover {
+    background-color: #e0e6fa;
+}
+
+.scoreimg {
+    margin-right: 10px;
+}
+
+.prevButton:hover,
+.nextButton:hover,
+.finishButton:hover,
+.restartButton:hover {
+    background-color: #b6d6f1;
+}
+
+.scoreDisplay {
+    margin-top: 20px;
+}
+
+.scoreText {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #8f9393;
+    margin-right: 10px;
+}
+
+.closeButton {
+    background-color: transparent;
+    background-image: url('../img/restart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0;
+}
+
+.closeButton:hover {
+    background-color: transparent;
+    background-image: url('../img/restart.png');
+}
+
+.quiz_option {
+    margin-right: 95px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .quizBox {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .quizBox {
+        width: 95%;
+        padding: 15px;
+    }
+    .questionText {
+        font-size: 1.5em;
+    }
+    .option {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+    .prevButton,
+    .nextButton,
+    .finishButton,
+    .restartButton {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .questionText {
+        font-size: 1.2em;
+    }
+    .option {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+    .prevButton,
+    .nextButton,
+    .finishButton,
+    .restartButton {
+        padding: 8px 15px;
+        font-size: 0.8em;
+    }
+    .startButton {
+        padding: 15px 30px;
+        font-size: 1.2em;
+    }
+}

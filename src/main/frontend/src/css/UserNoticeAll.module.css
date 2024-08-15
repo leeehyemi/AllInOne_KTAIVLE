@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.noticeSection {
+    font-family: 'GongGothicLight';
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.pageTitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pageTitle h3 {
+    font-size: 32px;
+    color: #333;
+    font-weight: 600;
+}
+
+.boardList {
+    overflow-x: auto;
+}
+
+.boardTable {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.boardTable th, .boardTable td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.boardTable th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.boardTable tbody tr {
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.boardTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.noticeTitle {
+    text-align: left;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.noticeTitle a:hover {
+    text-decoration: underline;
+}
+
+.thNum {
+    width: 50px;
+}
+
+.thTitle {
+    width: 70%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.thDate {
+    width: 20%;
+}

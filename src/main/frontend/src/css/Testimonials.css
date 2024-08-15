@@ -1,0 +1,97 @@
+.container.py-5.px-lg-5 {
+    padding-bottom: 0 !important;
+}
+.bg-primary {
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+
+.bg-secondary {
+    background-color: #4777F5 !important;
+}
+
+.bg-success {
+    background-color: #198754 !important;
+}
+
+.testimonial-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button {
+    padding: 10px 20px; /* Adjusted to be slightly larger for better visual impact */
+    background-color: #3498db; /* Primary color blue */
+    color: #fff; /* Text color white for better contrast */
+    text-decoration: none; /* Removes underline from links */
+    border: none; /* No border */
+    border-radius: 50px; /* Fully rounded edges */
+    font-size: 1rem; /* Default font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+
+.custom-button {
+    padding: 7px 14px; /* 패딩 설정 동일하게 */
+    background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+    color: black; /* 글자색을 검정으로 설정 */
+    text-decoration: none; /* 텍스트 밑줄 제거 */
+    border: 1px solid #ddd; /* 테두리를 연회색으로 설정 */
+    border-radius: 50px; /* 둥근 테두리 */
+    font-size: 0.9rem; /* 글꼴 크기 설정 */
+    font-weight: bold; /* 글꼴 두께를 굵게 */
+    cursor: pointer; /* 마우스 커서를 포인터로 설정 */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* 배경색과 변형에 대한 전환 효과 추가 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+.custom-button:hover {
+    background-color: #f0f0f0; /* 마우스 오버시 배경색 변경 */
+    transform: translateY(-2px); /* 마우스 오버시 버튼이 약간 위로 이동 */
+}
+
+.custom-button:focus {
+    outline: none; /* 포커스시 외곽선 제거 */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); /* 포커스시 그림자 효과 */
+}
+
+.custom-button:active {
+    background-color: #e0e0e0; /* 활성화시 배경색 변경 */
+    transform: translateY(0); /* 활성화시 버튼 위치 초기화 */
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.container-xxl.testimonial.py-5.mb-0.pb-0.wow.fadeInUp {
+    background-color: #f8f9fa !important;
+    padding-top: 5px !important;
+}

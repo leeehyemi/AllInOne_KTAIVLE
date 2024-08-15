@@ -1,0 +1,48 @@
+.noticeFormContainer {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    white-space: nowrap;
+    margin-left: 90px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 300px;
+}
+
+button[type="submit"] {
+    background-color: #5794f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3a7de0;
+}
+
+.notice_label {
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
